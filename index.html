@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <section class="home" id="home">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <h1 class="logo">Mary Learning</h1>
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#home" class="navbar-item"> Home </a>
+            <a href="#about-me" class="navbar-item"> About Me </a>
+            <a href="#contact" class="navbar-item"> Contact Me</a>
+            <a href="#skills" class="navbar-item"> Skills </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="home-text">
+        <h1 class="mt-6 heading-1">Hey there !!</h1>
+        <p class="mt-3 description">
+          My name is Maryam , and Im new to frontend <br />development world .
+        </p>
+      </div>
+      <img
+        src="images/floating-pic-removebg-preview.png"
+        alt="Placeholder image"
+      />
+    </section>
+
+    <!-- about me -->
+    <section class="about-me" id="about-me">
+      <center>
+        <h1 class="heading">About Me</h1>
+        <p class="mt-2 mb-6 parag">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          nihil voluptatem corrupti!
+        </p>
+        <div class="columns">
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="images/flip-card.png"
+                    alt="Avatar"
+                    style="width: 300px; height: 300px"
+                  />
+                </div>
+                <div class="flip-card-back is-vcentered">
+                  <p class="mt-5">
+                    So ,<br />
+                    let me tell you more about myself ..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="images/flip-card.png"
+                    alt="Avatar"
+                    style="width: 300px; height: 300px"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p class="mt-5">
+                    Im 19 years old , living in beirut , studying management
+                    information system
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="images/flip-card.png"
+                    alt="Avatar"
+                    style="width: 300px; height: 300px"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p class="mt-5">
+                    I love coding and technology <br />
+                    in general, you can follow me on my social media and be
+                    friends!!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+    </section>
+    <section class="contact" id="contact">
+      <center>
+        <h1 class="heading">Contact Me !!</h1>
+        <p class="parag mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti
+          commodi ut.
+        </p>
+        <form action="" method="post">
+          <div class="field">
+            <label
+              for="name"
+              class="label is-size-4 has-text-weight-light"
+            ></label>
+            <div class="control has-icons-left">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="input"
+                placeholder="Name"
+                autofocus
+              />
+              <span class="icon is-left">
+                <i class="bx bxs-user-pin"></i>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label
+              for="email"
+              class="label is-size-4 has-text-weight-light"
+            ></label>
+            <div class="control has-icons-left">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input"
+                placeholder="Email"
+              />
+              <span class="icon is-left">
+                <i class="bx bxs-envelope"></i>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label
+              for="message"
+              class="label is-size-4 has-text-weight-light"
+            ></label>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              class="textarea is-medium"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="mt-5 button is-dark is-size-5">
+            Submit
+          </button>
+        </form>
+      </center>
+    </section>
+    <section class="skills" id="skills">
+      <center>
+        <h1 class="heading">My skills</h1>
+        <p class="mt-2 mb-6 parag">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          nihil voluptatem corrupti!
+        </p>
+      </center>
+      <div class="columns">
+        <div class="column">
+          <h1 class="skill-text">HTML , CSS</h1>
+          <div class="container">
+            <div class="progress progress-moved1">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+          <h1 class="skill-text">Javascript , React</h1>
+          <div class="container">
+            <div class="progress progress-moved2">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+          <h1 class="skill-text">Web Design</h1>
+          <div class="container">
+            <div class="progress progress-moved3">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+          <h1 class="skill-text">Social Skills</h1>
+          <div class="container">
+            <div class="progress progress-moved4">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <img src="images/binary-coding.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="footer" id="footer">
+      <center>
+        <a href="mailto:mariammouftah34@hotmail.com">
+          <i class="mr-3 bx bxs-envelope"></i>
+        </a>
+
+        <a href="https://www.instagram.com/m._a__rr/">
+          <i class="mr-3 bx bxl-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@learnwithmary_"
+          ><i class="mr-3 bx bxl-tiktok"></i
+        ></a>
+        <hr />
+        <p class="parag">© ALL RIGHTS RESERVED</p>
+      </center>
+    </section>
+  </body>
+</html>
